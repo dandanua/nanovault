@@ -6,7 +6,7 @@ import {NodeService} from "./node.service";
 export class ApiService {
 
   //rpcUrl = `https://nanovault.io/api/node-api`;
-  rpcUrl = `http://localhost:9950/api/node-api`;
+  rpcUrl = `http://34.212.109.62/api/node-api`;
 
   constructor(private http: HttpClient, private node: NodeService) { }
 
